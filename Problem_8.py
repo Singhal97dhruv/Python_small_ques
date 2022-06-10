@@ -9,3 +9,7 @@ for i in range(n2):
     y.add(int(input()))
 print(x.difference(y))
 print(y-x)
+
+#for symmetric difference
+print("Symmetric difference ->  ",end="")
+print(x^y)
